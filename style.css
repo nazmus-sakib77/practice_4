@@ -1,0 +1,126 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+
+}
+header{
+    background-image: url(bac3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navs{
+    background-color: darkblue;
+    padding: 14px;
+    
+}
+nav{
+    float: right;
+    margin-top: 15px;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-weight: 500;
+    display: inline;
+    font-size: 20px
+   
+}
+
+.navs img{
+    width: 150px;
+}
+.container{
+    padding: 100px ;
+}
+.banner-section {}
+.banner-section h1{
+    
+    font-size: 36px;
+    line-height: 1.76;
+}
+.banner-section p{
+    line-height: 1.8;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+.banner-section a{
+    text-decoration: none;
+    font-size: 15px;
+
+}
+.banner-section .btn{
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+main{
+    margin: 0;
+    padding: 5px;
+    background-color: bisque
+}
+main > h1, p, .element{
+    margin: 10px;
+    padding: 5px;
+
+} 
+.element{
+    background: white;
+}
+.element summary{
+    width: 130px;
+}
+.element > h2, p{
+    font-size: 90%;
+    padding: 4px
+}
+.portfolio .figer{
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.portfolio h1{
+    text-align: center;
+}
+.figcaption h1{
+    text-align: center;
+    font-size: 35px;
+  }
+.figcaption figcaption{
+    display: inline-block;
+    overflow: hidden;
+}
+.dl-dt-dd{
+    background-color: aqua;
+    width: 260px;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 75px;
+}
+.aside aside{
+    float: right;
+    margin-left: 15px;
+    padding: 15px;
+    font-style: italic;
+    color: black;
+    background-color: aqua;
+    width: 30%;
+    border-radius: 10px;
+}
+
+fieldset{
+    border: 2px solid black;
+}
+footer{
+    background-color: aqua
+}
+.address{
+    display: inline-block;
+    margin-right: 90px
+}
